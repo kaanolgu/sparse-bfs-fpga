@@ -1,4 +1,5 @@
 # Sparse-BFS-FPGA
+This work is submitted to the 25th Euromicro Conference on Digital System Design (DSD)
 ## Instructions
 One of the following scripts needs to be created on your project directory in order to create neccessary Vivado projects  
 For windows : ( Create a .bat file and insert the following commands then run it)
