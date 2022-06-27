@@ -1,17 +1,4 @@
 # Sparse-BFS-FPGA
-## License
-The source files for the Sparse BFS used for Zedboard Implementation
-[![CC BY 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
-
 ## Instructions
 One of the following scripts needs to be created on your project directory in order to create neccessary Vivado projects  
 For windows : ( Create a .bat file and insert the following commands then run it)
@@ -38,6 +25,18 @@ User needs to do only the following for each PE unit then package these IP block
 and then Tools -> Create and Package a New IP -> Package your current project
 
 
-Import these exported 2 PE blocks to a top level vivado project which could be set up according to the connections in top_level_design.pdf file
+Import these exported 2 PE blocks to a top level vivado project which could be set up according to the connections in [top level design](top_level_design.pdf) file
 
 Later on you need to export the bitstream files from the top level design and run the project files from Xilinx SDK
+## License
+The source files for the Sparse BFS used for Zedboard Implementation
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
