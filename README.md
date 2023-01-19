@@ -1,5 +1,7 @@
 # Sparse-BFS-FPGA
 This work is submitted to the 25th Euromicro Conference on Digital System Design (DSD)
+
+Full paper is now published on IEEEXplore [https://ieeexplore.ieee.org/document/9996632]
 ## Instructions
 One of the following scripts needs to be created on your project directory in order to create neccessary Vivado projects  
 For windows : ( Create a .bat file and insert the following commands then run it)
@@ -41,3 +43,17 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+## Reference
+
+```
+@INPROCEEDINGS{9996632,
+  author={Olgu, Kaan and Nikov, Kris and Nunez-Yanez, Jose},
+  booktitle={2022 25th Euromicro Conference on Digital System Design (DSD)}, 
+  title={Analysis of Graph Processing in Reconfigurable Devices for Edge Computing Applications}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={16-23},
+  doi={10.1109/DSD57027.2022.00012}}
+```
